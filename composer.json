@@ -1,0 +1,45 @@
+{
+    "name": "startcode/config",
+    "description": "startcode application config manager",
+    "keywords": [
+        "config",
+        "ini",
+        "json"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Drasko Gomboc",
+            "email": "drasko.gomboc@gmail.com"
+        },
+        {
+            "name": "Zeljko Simic",
+            "email": "zeljkosbgd@gmail.com"
+        },
+        {
+            "name": "Petar Kapulica",
+            "email": "epkapuleti@gmail.com"
+        },
+        {
+            "name": "Nemanja Mirkov",
+            "email": "mirkovnemanja@gmail.com"
+        },
+        {
+            "name": "Vladan Zoricic",
+            "email": "vladan.zoricic@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Startcode\\Config\\": "src/"
+        }
+    },
+    "require-dev": {
+        "php"            : ">=7.4",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "require": {
+        "zendframework/zend-config": "*",
+        "zendframework/zend-config-aggregator": "0.2.*"
+    }
+}
